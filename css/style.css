@@ -113,6 +113,8 @@ h2 {
     max-width: 300px;
     text-align: center;
     padding: 1rem;
+
+    transition: transform 0.3s ease-in-out;
 }
 
 .project-card img {
@@ -127,6 +129,12 @@ h2 {
     display: inline-block;
     margin-top: 1rem;
 }
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+
 /* Skills Section */
 .skills-container {
     display: flex;
