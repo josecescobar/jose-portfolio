@@ -127,6 +127,29 @@ h2 {
     display: inline-block;
     margin-top: 1rem;
 }
+/* Skills Section */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    text-align: center;
+    max-width: 120px; /* Controls the space each skill block takes */
+}
+
+.skill img {
+    width: 80px; /* Adjust the width of the icon */
+    height: auto; /* Keep aspect ratio */
+    margin-bottom: 1rem;
+}
+
 
 /* Footer Styling */
 .main-footer {
