@@ -158,6 +158,32 @@ h2 {
     margin-bottom: 1rem;
 }
 
+/* Hero Bitmoji Styling */
+.hero-content img.hero-bitmoji {
+    width: 150px; /* Adjust the size accordingly */
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+/* About Bitmoji Styling */
+.about-bitmoji {
+    width: 120px; /* Adjust the size accordingly */
+    height: auto;
+    margin-bottom: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Skills Bitmoji Styling */
+.skills-bitmoji {
+    width: 120px; /* Adjust the size accordingly */
+    height: auto;
+    margin-bottom: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* Footer Styling */
 .main-footer {
