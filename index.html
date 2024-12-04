@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jose Escobar - Front End Developer</title>
+    <meta name="description" content="Portfolio of Jose Escobar, a Front End Web Developer passionate about creating beautiful and functional web experiences.">
+    <meta name="keywords" content="Jose Escobar, Front End Developer, Web Developer, Portfolio">
+    <meta name="author" content="Jose Escobar">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/png" href="img/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -43,8 +46,14 @@
 <!-- About Section -->
 <section id="about">
     <h2>About Me</h2>
-    <img src="img/bitmoji-smiling.png" alt="Jose smiling" class="about-bitmoji">
-    <p>I'm a self-taught web developer with a love for technology and problem-solving. My passion for creating intuitive and engaging user interfaces drives me to continuously learn and improve my skills.</p>
+    <div class="about-container">
+        <img src="img/bitmoji-smiling.png" alt="Jose smiling" class="about-bitmoji">
+        <div class="about-content">
+            <p>I'm a self-taught web developer with a love for technology and problem-solving. My passion for creating intuitive and engaging user interfaces drives me to continuously learn and improve my skills.</p>
+            <p>With a background in graphic design, I bring a unique perspective to web development, combining aesthetics with functionality. I enjoy working on projects that challenge me to think creatively and push the boundaries of what's possible on the web.</p>
+            <p>In my free time, I love exploring new technologies, contributing to open-source projects, and sharing my knowledge through blogging and mentoring aspiring developers.</p>
+        </div>
+    </div>
 </section>
 
 <!-- Projects Section -->
@@ -98,12 +107,16 @@
             <p>A visually appealing website with a clean and elegant layout. Demonstrates basic HTML/CSS skills.</p>
             <a href="https://josecescobar.github.io/jubilee-austen/" target="_blank">View Project</a>
         </div>
+
+        <!-- Add more projects as needed -->
     </div>
 </section>
 
 
 <!-- Skills Section -->
-<div class="skills-container">
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
     <img src="img/bitmoji-thinking.png" alt="Jose thinking" class="skills-bitmoji">
     <!-- HTML & CSS Skill -->
     <div class="skill">
@@ -154,6 +167,21 @@
 <section id="contact">
     <h2>Contact</h2>
     <p>Feel free to reach out to me for collaboration or if you have any questions!</p>
+    <form class="contact-form">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn-primary">Send Message</button>
+    </form>
     <ul class="contact-links">
         <li>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></li>
         <li>GitHub: <a href="https://github.com/josecescobar" target="_blank">josecescobar</a></li>
