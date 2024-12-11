@@ -367,10 +367,18 @@ h2 {
 }
 
 /* Skills Section */
+#skills {
+    background-color: #f0f8ff;
+    padding: 4rem 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
 .skills-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    gap: 1rem;
+    gap: 2rem;
     justify-items: center;
     margin-top: 2rem;
 }
@@ -380,23 +388,19 @@ h2 {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.skill:hover {
+    transform: translateY(-5px);
 }
 
 .skill img {
-    width: 80px; /* Adjust the width of the icon */
-    height: auto; /* Keep aspect ratio */
-    margin-bottom: 1rem;
-}
-
-/* Bitmoji Styling */
-.hero-content img.hero-bitmoji {
-    width: 250px;
-    height: auto;
-    margin-bottom: 1.5rem;
-}
-
-.about-bitmoji {
-    width: 200px;
+    width: 80px; 
     height: auto;
     margin-bottom: 1rem;
     display: block;
